@@ -33,7 +33,9 @@ git clone https://github.com/<your-username>/slotswapper.git
 cd slotswapper
 docker-compose up --build
 
-Option 2: Manual Setup
+---
+
+### Option 2: Manual Setup
 
 Backend
 
@@ -49,7 +51,9 @@ cd frontend
 npm install
 npm run dev
 
-Folder Structure
+---
+
+### Folder Structure
 slotswapper/
 ├── backend/
 │   ├── src/
@@ -65,13 +69,14 @@ slotswapper/
 ├── docker-compose.yml
 └── README.md
 
+---
 
-🧠 Future Enhancements
+### Future Enhancements
 
-Real-time swap notifications (Socket.IO)
+- **Real-time swap notifications (Socket.IO)
 
-Unit tests for swap logic
+- **Unit tests for swap logic
 
-Full calendar UI integration
+- **Full calendar UI integration
 
-Deployment to Render (backend) & Vercel (frontend)
+- **Deployment to Render (backend) & Vercel (frontend)
